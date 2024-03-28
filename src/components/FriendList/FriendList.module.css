@@ -1,0 +1,14 @@
+ /* src/components/FriendList/FriendList.module.css */
+
+ .listOfFriends{
+    margin-top: 20px;
+    margin-left: 5px;
+    display: flex;
+    gap: 10px;
+
+ }
+ .liFriend {
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 8px;
+ }

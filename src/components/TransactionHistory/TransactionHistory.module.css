@@ -1,0 +1,23 @@
+.head {
+background-color: black;
+color: white;
+}
+
+.table{
+margin-top: 5px;
+margin-left: 5px;
+border: solid black 1px;
+margin-bottom: 10px;
+
+}
+.td {
+    border: solid black 1px;
+    width: 200px;
+    padding: 0;
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: gray;
+
+  }
+  

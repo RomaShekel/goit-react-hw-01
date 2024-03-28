@@ -1,31 +1,32 @@
 // src/components/Profile/Profile.jsx
-
+import css from "./Profile.module.css"
 export default Profile;
- function Profile ({username, tag, location, avatar, stats:{followers, views, likes}}) {
+
+ function Profile ({name, tag, location, image, stats:{followers, views, likes}}) {
     return (
-    <div>
-  <div>
-    <img
-     src={avatar}
+    <div className={css.profile}>
+  <div className={css.divAvatar}>
+    <img className={css.avatar}
+     src={image}
      alt="User avatar"
     />
-    <p>{username}</p>
-    <p>@{tag}</p>
-    <p>{location}</p>
+    <p className={css.p}>{name}</p>
+    <p className={css.grayText}>@{tag}</p>
+    <p className={css.grayText}>{location}</p>
   </div>
 
-  <ul>
-    <li>
+  <ul className={css.list}>
+    <li className={css.listItem}>
     <span>Followers</span>
-    <span>{followers}</span>
+    <span className={css.boldSpan}>{followers}</span>
     </li>
-    <li>
+    <li className={css.listItem}>
      <span>Views</span>
-     <span>{views}</span>
+     <span className={css.boldSpan}>{views}</span>
     </li>
-    <li>
+    <li className={css.listItem}>
      <span>Likes</span>
-     <span>{likes}</span>
+     <span className={css.boldSpan}>{likes}</span>
     </li>
   </ul>
 </div>

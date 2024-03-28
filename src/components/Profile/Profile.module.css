@@ -1,0 +1,54 @@
+
+
+.profile {
+width: 210px;
+max-height: 250px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+border: solid black 1px;
+border-radius: 3px;
+margin-left: 5px;
+margin-top: 5px;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.divAvatar {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+.listItem{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 12px;
+    width: 70px;
+    background-color: lightgrey;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    border-top:solid gray 1px;
+    border-left: solid gray 1px;;
+}
+.boldSpan{
+    font-weight: 700;
+}
+.grayText {
+    color: gray;
+    font-size: 12px;
+}

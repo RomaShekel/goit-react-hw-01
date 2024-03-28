@@ -1,0 +1,17 @@
+
+.divFriend{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.status {
+    font-size: 12px;
+}
+.online{
+    color: green;
+}
+.ofline{
+    color: red;
+}
